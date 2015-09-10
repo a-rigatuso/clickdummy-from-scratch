@@ -1,0 +1,28 @@
+// Styling basics
+html {
+  font-size: 87.5%; // 14px
+}
+
+body {
+  background-color: $white;
+  color: $color-text;
+  font-family: $font-regular;
+	font-size: $fs-base;
+}
+
+h1,
+h2,
+h3 {
+  line-height: $h-headings;
+}
+
+strong {
+  font-weight: 400;
+  font-family: $font-regular;
+}
+
+// Styling helper-classes
+.inner {
+	margin: 0 auto;
+	width: $inner-width;
+}

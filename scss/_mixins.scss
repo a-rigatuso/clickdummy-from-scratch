@@ -1,0 +1,24 @@
+// REM-mixin for IE8
+@mixin font-size($sizeValue: 14) {
+  font-size: $sizeValue + px;
+  font-size: ($sizeValue / 14) + rem;
+}
+
+// Media Queries
+@mixin responsive($width) {
+  @if $width == tablet-portrait {
+    @media only screen and (max-width: $width-medium) {
+      @content;
+    }
+  }
+  @else if $width == phone-wide {
+    @media only screen and (max-width: $width-small) {
+      @content;
+    }
+  }
+  @else if $width == phone-portrait {
+    @media only screen and (max-width: $width-micro) {
+      @content;
+    }
+  }
+}

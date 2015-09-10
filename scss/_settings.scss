@@ -1,0 +1,24 @@
+// Define your variables here
+$font-regular: 'Arial', 'Helvetica', sans-serif !default;
+$font-special: 'Verdana', sans-serif !default;
+
+$color-text  : #666 !default;
+$color-link  : #0ad !default;
+$white       : #fff !default;
+
+// Define font-sizes unitless to work with rem-mixin
+$fsize-base  : 14;
+$fsize-h1    : ceil($fs-base * 2.57) !default; // ~36px <-- more flexible
+$fsize-h2    : 30 !default; // <-- faster
+$fsize-h2    : 24 !default;
+
+$lh-base     : 1.4 !default;
+$lh-headings : 1.2 !default;
+
+// Define standard sizing values
+$inner-width : 1280px !default;
+
+// Define media-queries to make them work with media-query-mixin (better make these content dependent)
+$width-micro : 479px;
+$width-small : 767px;
+$width-medium: 1023px;
