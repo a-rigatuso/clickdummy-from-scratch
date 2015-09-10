@@ -1,6 +1,13 @@
 // Styling basics
 html {
   font-size: 87.5%; // 14px
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
