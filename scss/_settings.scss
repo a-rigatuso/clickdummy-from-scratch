@@ -8,7 +8,7 @@ $white       : #fff !default;
 
 // Define font-sizes unitless to work with rem-mixin
 $fsize-base  : 14;
-$fsize-h1    : ceil($fs-base * 2.57) !default; // ~36px <-- more flexible
+$fsize-h1    : ceil($fsize-base * 2.57) !default; // ~36px <-- more flexible
 $fsize-h2    : 30 !default; // <-- faster
 $fsize-h2    : 24 !default;
 

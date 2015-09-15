@@ -14,13 +14,13 @@ body {
   background-color: $white;
   color: $color-text;
   font-family: $font-regular;
-	font-size: $fs-base;
+	font-size: $fsize-base;
 }
 
 h1,
 h2,
 h3 {
-  line-height: $h-headings;
+  line-height: $lh-headings;
 }
 
 strong {
